@@ -1,0 +1,1 @@
+puts (1..999).to_a.inject(0) 	{ |sum, element| 	( element % 3 == 0 or element % 5 == 0 ) ? sum + element : sum }
